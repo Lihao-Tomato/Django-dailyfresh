@@ -1,0 +1,334 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Jun 27 18:37:41 2020] ***
+compiled with version: 5.4.0 20160609 on 27 June 2020 10:21:23
+os: Linux-4.4.0-184-generic #214-Ubuntu SMP Thu Jun 4 10:14:11 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/bj12/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/bj12_py3/bin/uwsgi
+chdir() to /home/python/bj12/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43092 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Apr 16 2020, 17:47:17)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/bj12_py3
+Python main interpreter initialized at 0x1ed6510
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0x1ed6510 pid: 4147 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4147)
+spawned uWSGI worker 1 (pid: 4149, cores: 2)
+spawned uWSGI worker 2 (pid: 4150, cores: 2)
+spawned uWSGI worker 3 (pid: 4151, cores: 2)
+spawned uWSGI worker 4 (pid: 4152, cores: 2)
+spawned uWSGI http 1 (pid: 4153)
+[pid: 4150|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 708 bytes} [Sat Jun 27 18:38:27 2020] GET /index => generated 13276 bytes in 8074 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4150|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 690 bytes} [Sat Jun 27 18:38:35 2020] GET /static/css/reset.css => generated 94 bytes in 202 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4151|app: 0|req: 2/3] 127.0.0.1 () {38 vars in 687 bytes} [Sat Jun 27 18:38:36 2020] GET /static/js/jquery-ui.min.js => generated 100 bytes in 4288 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4152|app: 0|req: 1/5] 127.0.0.1 () {38 vars in 688 bytes} [Sat Jun 27 18:38:36 2020] GET /static/css/main.css => generated 93 bytes in 4299 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4151|app: 0|req: 2/5] 127.0.0.1 () {38 vars in 695 bytes} [Sat Jun 27 18:38:36 2020] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 4291 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4149|app: 0|req: 2/6] 127.0.0.1 () {38 vars in 671 bytes} [Sat Jun 27 18:38:36 2020] GET /static/js/slide.js => generated 92 bytes in 4290 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4149|app: 0|req: 2/7] 127.0.0.1 () {38 vars in 704 bytes} [Sat Jun 27 18:38:36 2020] GET /static/images/logo.png => generated 96 bytes in 4288 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4152|app: 0|req: 2/8] 127.0.0.1 () {38 vars in 658 bytes} [Sat Jun 27 18:38:42 2020] GET /favicon.ico => generated 85 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4153)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Jun 27 18:56:29 2020] ***
+compiled with version: 5.4.0 20160609 on 27 June 2020 10:21:23
+os: Linux-4.4.0-184-generic #214-Ubuntu SMP Thu Jun 4 10:14:11 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/bj12/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/bj12_py3/bin/uwsgi
+chdir() to /home/python/bj12/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Apr 16 2020, 17:47:17)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/bj12_py3
+Python main interpreter initialized at 0x228b420
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x228b420 pid: 4396 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4396)
+spawned uWSGI worker 1 (pid: 4398, cores: 2)
+spawned uWSGI worker 2 (pid: 4399, cores: 2)
+spawned uWSGI worker 3 (pid: 4400, cores: 2)
+spawned uWSGI worker 4 (pid: 4401, cores: 2)
+[pid: 4398|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 774 bytes} [Sat Jun 27 19:09:13 2020] GET /index => generated 13276 bytes in 4255 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 751 bytes} [Sat Jun 27 19:09:17 2020] GET /static/css/reset.css => generated 94 bytes in 92 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4401|app: 0|req: 2/4] 127.0.0.1 () {42 vars in 765 bytes} [Sat Jun 27 19:09:17 2020] GET /static/images/logo.png => generated 96 bytes in 2964 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4399|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 749 bytes} [Sat Jun 27 19:09:17 2020] GET /static/css/main.css => generated 93 bytes in 2981 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4399|app: 0|req: 2/6] 127.0.0.1 () {42 vars in 732 bytes} [Sat Jun 27 19:09:17 2020] GET /static/js/slide.js => generated 92 bytes in 2966 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4400|app: 0|req: 1/6] 127.0.0.1 () {42 vars in 748 bytes} [Sat Jun 27 19:09:17 2020] GET /static/js/jquery-ui.min.js => generated 100 bytes in 2969 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4401|app: 0|req: 2/7] 127.0.0.1 () {42 vars in 756 bytes} [Sat Jun 27 19:09:17 2020] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 2977 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4400|app: 0|req: 2/8] 127.0.0.1 () {42 vars in 765 bytes} [Sat Jun 27 19:09:20 2020] GET /static/images/logo.png => generated 96 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4399|app: 0|req: 3/9] 127.0.0.1 () {44 vars in 740 bytes} [Sat Jun 27 19:09:21 2020] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4399|app: 0|req: 4/10] 127.0.0.1 () {42 vars in 774 bytes} [Sat Jun 27 19:21:08 2020] GET /index => generated 13276 bytes in 1036 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 4401|app: 0|req: 3/11] 127.0.0.1 () {42 vars in 785 bytes} [Sat Jun 27 19:21:24 2020] GET /goods/1 => generated 8922 bytes in 719 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 4398|app: 0|req: 3/12] 127.0.0.1 () {42 vars in 787 bytes} [Sat Jun 27 19:21:35 2020] GET /goods/10 => generated 8781 bytes in 146 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 4/13] 127.0.0.1 () {42 vars in 784 bytes} [Sat Jun 27 19:21:38 2020] GET /cart/ => generated 12246 bytes in 418 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+设置缓存
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAGs4rAACpB-LsCdE740.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAbOC7AAC3B-z8J2c197.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAWAsaAAETwXb_pso292.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eACCeYAAD0akkXmFo971.jpg
+[pid: 4398|app: 0|req: 5/14] 127.0.0.1 () {42 vars in 774 bytes} [Sat Jun 27 19:55:13 2020] GET /index => generated 13276 bytes in 738 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 6/15] 127.0.0.1 () {42 vars in 774 bytes} [Sat Jun 27 19:55:37 2020] GET /index => generated 13276 bytes in 307 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 4398|app: 0|req: 7/16] 127.0.0.1 () {42 vars in 785 bytes} [Sat Jun 27 19:55:46 2020] GET /goods/1 => generated 8922 bytes in 2105 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 8/17] 127.0.0.1 () {42 vars in 774 bytes} [Sat Jun 27 19:57:17 2020] GET /index => generated 13276 bytes in 417 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 4398|app: 0|req: 9/18] 127.0.0.1 () {42 vars in 785 bytes} [Sat Jun 27 19:57:19 2020] GET /goods/1 => generated 8922 bytes in 197 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 10/19] 127.0.0.1 () {42 vars in 774 bytes} [Sat Jun 27 19:59:04 2020] GET /index => generated 13276 bytes in 432 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 4398|app: 0|req: 11/20] 127.0.0.1 () {42 vars in 785 bytes} [Sat Jun 27 19:59:06 2020] GET /goods/1 => generated 8922 bytes in 193 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 12/21] 127.0.0.1 () {40 vars in 743 bytes} [Sat Jun 27 19:59:17 2020] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 1)
+[pid: 4399|app: 0|req: 5/22] 127.0.0.1 () {40 vars in 745 bytes} [Sat Jun 27 19:59:18 2020] GET /admin/ => generated 0 bytes in 463 msecs (HTTP/1.1 302) 7 headers in 271 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 13/23] 127.0.0.1 () {40 vars in 782 bytes} [Sat Jun 27 19:59:18 2020] GET /admin/login/?next=/admin/ => generated 1917 bytes in 685 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 4399|app: 0|req: 6/24] 127.0.0.1 () {40 vars in 745 bytes} [Sat Jun 27 19:59:28 2020] GET /admin/ => generated 0 bytes in 82 msecs (HTTP/1.1 302) 7 headers in 271 bytes (1 switches on core 1)
+[pid: 4398|app: 0|req: 14/25] 127.0.0.1 () {42 vars in 837 bytes} [Sat Jun 27 19:59:29 2020] GET /admin/login/?next=/admin/ => generated 1917 bytes in 87 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 16/26] 127.0.0.1 () {50 vars in 1011 bytes} [Sat Jun 27 19:59:35 2020] POST /admin/login/?next=/admin/ => generated 0 bytes in 566 msecs (HTTP/1.1 302) 9 headers in 505 bytes (1 switches on core 1)
+[pid: 4398|app: 0|req: 16/27] 127.0.0.1 () {44 vars in 834 bytes} [Sat Jun 27 19:59:35 2020] GET /admin/ => generated 7859 bytes in 200 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 17/28] 127.0.0.1 () {42 vars in 816 bytes} [Sat Jun 27 19:59:39 2020] GET /admin/goods/goodstype/ => generated 5510 bytes in 491 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 4398|app: 0|req: 18/29] 127.0.0.1 () {40 vars in 708 bytes} [Sat Jun 27 19:59:39 2020] GET /admin/jsi18n/ => generated 6776 bytes in 655 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4398|app: 0|req: 19/30] 127.0.0.1 () {42 vars in 836 bytes} [Sat Jun 27 19:59:44 2020] GET /admin/goods/goodstype/1/ => generated 5834 bytes in 145 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 4398|app: 0|req: 20/31] 127.0.0.1 () {40 vars in 710 bytes} [Sat Jun 27 19:59:44 2020] GET /admin/jsi18n/ => generated 6776 bytes in 76 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+[-] Error: 111 connect to 192.168.6.132:22122. Connection refused.
+DAMN ! worker 1 (pid: 4398) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 4886)
+[pid: 4399|app: 0|req: 7/32] 127.0.0.1 () {42 vars in 774 bytes} [Sat Jun 27 20:00:21 2020] GET /index => generated 13276 bytes in 287 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4886|app: 0|req: 22/33] 127.0.0.1 () {42 vars in 785 bytes} [Sat Jun 27 20:00:24 2020] GET /goods/1 => generated 8922 bytes in 4932 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 4886|app: 0|req: 23/34] 127.0.0.1 () {42 vars in 774 bytes} [Sat Jun 27 20:01:24 2020] GET /index => generated 13276 bytes in 447 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 4886|app: 0|req: 24/35] 127.0.0.1 () {42 vars in 785 bytes} [Sat Jun 27 20:01:28 2020] GET /goods/1 => generated 8922 bytes in 147 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 4401|app: 0|req: 4/36] 192.168.6.132 () {42 vars in 732 bytes} [Sat Jun 27 20:24:58 2020] GET / => generated 74 bytes in 266 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4886|app: 0|req: 25/37] 192.168.6.132 () {38 vars in 593 bytes} [Sat Jun 27 20:24:58 2020] GET /favicon.ico => generated 85 bytes in 449 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Gracefully killing worker 1 (pid: 4886)...
+Gracefully killing worker 3 (pid: 4400)...
+Gracefully killing worker 4 (pid: 4401)...
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 4399)...
+worker 2 buried after 31 seconds
+worker 3 buried after 31 seconds
+worker 4 buried after 31 seconds
+worker 1 buried after 34 seconds
+binary reloading uWSGI...
+chdir() to /home/python/bj12/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8080)
+running /home/python/.virtualenvs/bj12_py3/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** WARNING: Can't find section "uwsgi" in INI configuration file uwsgi.ini ***
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Jun 27 20:35:25 2020] ***
+compiled with version: 5.4.0 20160609 on 27 June 2020 10:21:23
+os: Linux-4.4.0-184-generic #214-Ubuntu SMP Thu Jun 4 10:14:11 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/bj12/dailyfresh
+detected binary path: /home/python/.virtualenvs/bj12_py3/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Jun 28 10:37:36 2020] ***
+compiled with version: 5.4.0 20160609 on 27 June 2020 10:21:23
+os: Linux-4.4.0-184-generic #214-Ubuntu SMP Thu Jun 4 10:14:11 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/bj12/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/bj12_py3/bin/uwsgi
+chdir() to /home/python/bj12/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Apr 16 2020, 17:47:17)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/bj12_py3
+Python main interpreter initialized at 0x98c410
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 9 seconds on interpreter 0x98c410 pid: 3752 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3752)
+spawned uWSGI worker 1 (pid: 3755, cores: 2)
+spawned uWSGI worker 2 (pid: 3756, cores: 2)
+spawned uWSGI worker 3 (pid: 3758, cores: 2)
+spawned uWSGI worker 4 (pid: 3760, cores: 2)
+[pid: 3755|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 733 bytes} [Sun Jun 28 10:37:48 2020] GET / => generated 74 bytes in 4808 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 682 bytes} [Sun Jun 28 10:37:53 2020] GET /favicon.ico => generated 85 bytes in 593 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 3760|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 733 bytes} [Sun Jun 28 10:40:49 2020] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+设置缓存
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAGs4rAACpB-LsCdE740.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAbOC7AAC3B-z8J2c197.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAWAsaAAETwXb_pso292.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eACCeYAAD0akkXmFo971.jpg
+[pid: 3760|app: 0|req: 3/4] 127.0.0.1 () {40 vars in 743 bytes} [Sun Jun 28 10:49:35 2020] GET /index => generated 13276 bytes in 1984 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 4/5] 127.0.0.1 () {42 vars in 785 bytes} [Sun Jun 28 10:49:41 2020] GET /goods/1 => generated 8922 bytes in 146 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 5/6] 127.0.0.1 () {42 vars in 785 bytes} [Sun Jun 28 10:53:37 2020] GET /goods/1 => generated 8922 bytes in 1144 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 6/7] 127.0.0.1 () {42 vars in 785 bytes} [Sun Jun 28 10:56:29 2020] GET /goods/6 => generated 8783 bytes in 150 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 7/8] 127.0.0.1 () {42 vars in 785 bytes} [Sun Jun 28 10:56:33 2020] GET /goods/8 => generated 8780 bytes in 155 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 8/9] 127.0.0.1 () {42 vars in 789 bytes} [Sun Jun 28 10:57:09 2020] GET /list/1/1 => generated 5134 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 9/10] 127.0.0.1 () {42 vars in 807 bytes} [Sun Jun 28 10:57:13 2020] GET /list/1/1?sort=hot => generated 5102 bytes in 119 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 10/11] 127.0.0.1 () {42 vars in 820 bytes} [Sun Jun 28 10:57:14 2020] GET /list/1/1?sort=price => generated 5116 bytes in 322 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 11/12] 127.0.0.1 () {42 vars in 818 bytes} [Sun Jun 28 10:57:15 2020] GET /list/1/1?sort=hot => generated 5102 bytes in 783 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 12/13] 127.0.0.1 () {42 vars in 799 bytes} [Sun Jun 28 10:57:19 2020] GET /list/1/1 => generated 5134 bytes in 87 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 13/14] 127.0.0.1 () {42 vars in 815 bytes} [Sun Jun 28 10:57:21 2020] GET /list/1/2?sort=default => generated 5197 bytes in 176 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 14/15] 127.0.0.1 () {42 vars in 828 bytes} [Sun Jun 28 10:57:22 2020] GET /list/1/2?sort=default => generated 5197 bytes in 204 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 15/16] 127.0.0.1 () {42 vars in 828 bytes} [Sun Jun 28 10:57:24 2020] GET /list/1/1?sort=default => generated 5134 bytes in 115 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 16/17] 127.0.0.1 () {42 vars in 803 bytes} [Sun Jun 28 10:57:37 2020] GET /list/2/1 => generated 4935 bytes in 94 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 17/18] 127.0.0.1 () {42 vars in 811 bytes} [Sun Jun 28 10:57:39 2020] GET /list/2/1?sort=price => generated 4923 bytes in 103 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 18/19] 127.0.0.1 () {42 vars in 822 bytes} [Sun Jun 28 10:57:41 2020] GET /list/2/3?sort=price => generated 4987 bytes in 60 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 19/20] 127.0.0.1 () {42 vars in 801 bytes} [Sun Jun 28 10:57:53 2020] GET /list/6/1 => generated 4943 bytes in 60 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 20/21] 127.0.0.1 () {42 vars in 807 bytes} [Sun Jun 28 10:57:54 2020] GET /list/6/1?sort=hot => generated 4918 bytes in 169 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 21/22] 127.0.0.1 () {42 vars in 816 bytes} [Sun Jun 28 10:57:56 2020] GET /list/6/3?sort=hot => generated 4983 bytes in 70 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 22/23] 127.0.0.1 () {42 vars in 793 bytes} [Sun Jun 28 10:58:27 2020] GET /user/ => generated 5861 bytes in 177 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 23/24] 127.0.0.1 () {42 vars in 795 bytes} [Sun Jun 28 10:58:39 2020] GET /user/order/1 => generated 5909 bytes in 311 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 24/25] 127.0.0.1 () {42 vars in 802 bytes} [Sun Jun 28 10:58:50 2020] GET /user/address => generated 3341 bytes in 54 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 25/26] 127.0.0.1 () {42 vars in 788 bytes} [Sun Jun 28 10:59:13 2020] GET /cart/ => generated 12246 bytes in 85 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 26/27] 127.0.0.1 () {42 vars in 795 bytes} [Sun Jun 28 10:59:39 2020] GET /user/order/1 => generated 5909 bytes in 60 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 27/28] 127.0.0.1 () {42 vars in 802 bytes} [Sun Jun 28 10:59:42 2020] GET /user/order/2 => generated 6570 bytes in 62 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 28/29] 127.0.0.1 () {42 vars in 800 bytes} [Sun Jun 28 11:00:16 2020] GET /user/logout => generated 0 bytes in 102 msecs (HTTP/1.1 302) 4 headers in 210 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 29/30] 127.0.0.1 () {42 vars in 744 bytes} [Sun Jun 28 11:00:16 2020] GET /index => generated 13269 bytes in 272 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 30/31] 127.0.0.1 () {42 vars in 747 bytes} [Sun Jun 28 11:00:18 2020] GET /user/login => generated 2118 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3755|app: 0|req: 2/32] 127.0.0.1 () {50 vars in 923 bytes} [Sun Jun 28 11:00:51 2020] POST /user/login => generated 0 bytes in 719 msecs (HTTP/1.1 302) 7 headers in 476 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 31/33] 127.0.0.1 () {44 vars in 817 bytes} [Sun Jun 28 11:00:52 2020] GET /index => generated 13276 bytes in 387 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 32/34] 127.0.0.1 () {42 vars in 793 bytes} [Sun Jun 28 11:01:04 2020] GET /user/logout => generated 0 bytes in 38 msecs (HTTP/1.1 302) 4 headers in 210 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 33/35] 127.0.0.1 () {42 vars in 737 bytes} [Sun Jun 28 11:01:04 2020] GET /index => generated 13269 bytes in 326 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 34/36] 127.0.0.1 () {42 vars in 753 bytes} [Sun Jun 28 11:01:06 2020] GET /user/register => generated 2615 bytes in 36 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3756|app: 0|req: 1/37] 127.0.0.1 () {42 vars in 747 bytes} [Sun Jun 28 11:02:22 2020] GET /user/login => generated 2118 bytes in 1217 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3756|app: 0|req: 2/38] 127.0.0.1 () {50 vars in 923 bytes} [Sun Jun 28 11:02:24 2020] POST /user/login => generated 0 bytes in 338 msecs (HTTP/1.1 302) 7 headers in 476 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 35/39] 127.0.0.1 () {44 vars in 817 bytes} [Sun Jun 28 11:02:25 2020] GET /index => generated 13276 bytes in 338 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 36/40] 127.0.0.1 () {40 vars in 743 bytes} [Sun Jun 28 11:02:45 2020] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 1)
+[pid: 3758|app: 0|req: 1/41] 127.0.0.1 () {40 vars in 745 bytes} [Sun Jun 28 11:02:45 2020] GET /admin/ => generated 0 bytes in 3509 msecs (HTTP/1.1 302) 7 headers in 271 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 37/42] 127.0.0.1 () {40 vars in 782 bytes} [Sun Jun 28 11:02:49 2020] GET /admin/login/?next=/admin/ => generated 1917 bytes in 704 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 3758|app: 0|req: 2/43] 127.0.0.1 () {50 vars in 1011 bytes} [Sun Jun 28 11:02:59 2020] POST /admin/login/?next=/admin/ => generated 0 bytes in 241 msecs (HTTP/1.1 302) 9 headers in 505 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 38/44] 127.0.0.1 () {44 vars in 834 bytes} [Sun Jun 28 11:02:59 2020] GET /admin/ => generated 7734 bytes in 293 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 39/45] 127.0.0.1 () {42 vars in 838 bytes} [Sun Jun 28 11:03:16 2020] GET /admin/goods/indexpromotionbanner/ => generated 4738 bytes in 271 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 40/46] 127.0.0.1 () {40 vars in 719 bytes} [Sun Jun 28 11:03:16 2020] GET /admin/jsi18n/ => generated 6776 bytes in 795 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 41/47] 127.0.0.1 () {42 vars in 838 bytes} [Sun Jun 28 11:03:29 2020] GET /admin/goods/indextypegoodsbanner/ => generated 13019 bytes in 1748 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 42/48] 127.0.0.1 () {40 vars in 719 bytes} [Sun Jun 28 11:03:30 2020] GET /admin/jsi18n/ => generated 6776 bytes in 299 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 43/49] 127.0.0.1 () {42 vars in 816 bytes} [Sun Jun 28 11:03:45 2020] GET /admin/goods/goodstype/ => generated 5510 bytes in 235 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 44/50] 127.0.0.1 () {40 vars in 708 bytes} [Sun Jun 28 11:03:45 2020] GET /admin/jsi18n/ => generated 6776 bytes in 71 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 45/51] 127.0.0.1 () {42 vars in 830 bytes} [Sun Jun 28 11:03:54 2020] GET /admin/goods/indexgoodsbanner/ => generated 5194 bytes in 145 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 46/52] 127.0.0.1 () {40 vars in 715 bytes} [Sun Jun 28 11:03:54 2020] GET /admin/jsi18n/ => generated 6776 bytes in 92 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 47/53] 127.0.0.1 () {42 vars in 857 bytes} [Sun Jun 28 11:04:05 2020] GET /admin/goods/indexgoodsbanner/4/ => generated 7313 bytes in 452 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 48/54] 127.0.0.1 () {40 vars in 717 bytes} [Sun Jun 28 11:04:06 2020] GET /admin/jsi18n/ => generated 6776 bytes in 56 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 49/55] 127.0.0.1 () {44 vars in 871 bytes} [Sun Jun 28 11:04:36 2020] GET /admin/goods/goodstype/ => generated 5510 bytes in 85 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 50/56] 127.0.0.1 () {40 vars in 708 bytes} [Sun Jun 28 11:04:36 2020] GET /admin/jsi18n/ => generated 6776 bytes in 54 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 51/57] 127.0.0.1 () {42 vars in 836 bytes} [Sun Jun 28 11:04:41 2020] GET /admin/goods/goodstype/1/ => generated 5835 bytes in 85 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 52/58] 127.0.0.1 () {40 vars in 710 bytes} [Sun Jun 28 11:04:41 2020] GET /admin/jsi18n/ => generated 6776 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 53/59] 127.0.0.1 () {42 vars in 785 bytes} [Sun Jun 28 11:32:12 2020] GET /goods/1 => generated 8922 bytes in 442 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 54/60] 127.0.0.1 () {42 vars in 789 bytes} [Sun Jun 28 11:32:15 2020] GET /list/1/1 => generated 5134 bytes in 161 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 55/61] 127.0.0.1 () {40 vars in 745 bytes} [Sun Jun 28 11:32:25 2020] GET /list/1 => generated 80 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 3758|app: 0|req: 3/62] 127.0.0.1 () {40 vars in 749 bytes} [Sun Jun 28 11:32:29 2020] GET /list/1/1 => generated 5134 bytes in 492 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 56/63] 127.0.0.1 () {40 vars in 749 bytes} [Sun Jun 28 11:32:34 2020] GET /list/2/1 => generated 4935 bytes in 78 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3758|app: 0|req: 4/64] 127.0.0.1 () {40 vars in 749 bytes} [Sun Jun 28 11:32:40 2020] GET /list/6/1 => generated 4943 bytes in 243 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 57/65] 127.0.0.1 () {40 vars in 749 bytes} [Sun Jun 28 11:32:47 2020] GET /list/7/1 => generated 0 bytes in 8 msecs (HTTP/1.1 302) 3 headers in 125 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 58/66] 127.0.0.1 () {40 vars in 743 bytes} [Sun Jun 28 11:32:47 2020] GET /index => generated 13276 bytes in 386 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 59/67] 127.0.0.1 () {40 vars in 749 bytes} [Sun Jun 28 11:32:56 2020] GET /list/1/1 => generated 5134 bytes in 67 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 60/68] 127.0.0.1 () {42 vars in 785 bytes} [Sun Jun 28 11:39:21 2020] GET /goods/1 => generated 8922 bytes in 148 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 61/69] 127.0.0.1 () {40 vars in 743 bytes} [Sun Jun 28 11:39:26 2020] GET /goods => generated 79 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 3758|app: 0|req: 5/70] 127.0.0.1 () {40 vars in 747 bytes} [Sun Jun 28 11:39:30 2020] GET /goods/2 => generated 8921 bytes in 142 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3758|app: 0|req: 6/71] 127.0.0.1 () {40 vars in 749 bytes} [Sun Jun 28 11:39:36 2020] GET /goods/22 => generated 8787 bytes in 94 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 62/72] 127.0.0.1 () {42 vars in 784 bytes} [Sun Jun 28 11:44:34 2020] GET /cart/ => generated 13635 bytes in 154 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 63/73] 127.0.0.1 () {40 vars in 743 bytes} [Sun Jun 28 11:45:05 2020] GET /login => generated 79 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 3756|app: 0|req: 3/74] 127.0.0.1 () {42 vars in 793 bytes} [Sun Jun 28 11:45:10 2020] GET /user/logout => generated 0 bytes in 99 msecs (HTTP/1.1 302) 4 headers in 210 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 64/75] 127.0.0.1 () {42 vars in 737 bytes} [Sun Jun 28 11:45:10 2020] GET /index => generated 13269 bytes in 261 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3756|app: 0|req: 4/76] 127.0.0.1 () {42 vars in 747 bytes} [Sun Jun 28 11:45:12 2020] GET /user/login => generated 2118 bytes in 39 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 66/77] 127.0.0.1 () {50 vars in 923 bytes} [Sun Jun 28 11:48:31 2020] POST /user/login => generated 0 bytes in 267 msecs (HTTP/1.1 302) 7 headers in 476 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 66/78] 127.0.0.1 () {44 vars in 817 bytes} [Sun Jun 28 11:48:32 2020] GET /index => generated 13276 bytes in 357 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 67/79] 127.0.0.1 () {42 vars in 793 bytes} [Sun Jun 28 11:48:41 2020] GET /user/logout => generated 0 bytes in 116 msecs (HTTP/1.1 302) 4 headers in 210 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 68/80] 127.0.0.1 () {42 vars in 737 bytes} [Sun Jun 28 11:48:41 2020] GET /index => generated 13269 bytes in 391 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 69/81] 127.0.0.1 () {42 vars in 753 bytes} [Sun Jun 28 11:48:43 2020] GET /user/register => generated 2615 bytes in 33 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3756|app: 0|req: 5/82] 127.0.0.1 () {42 vars in 747 bytes} [Sun Jun 28 11:49:04 2020] GET /user/login => generated 2118 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 70/83] 127.0.0.1 () {50 vars in 923 bytes} [Sun Jun 28 11:49:06 2020] POST /user/login => generated 0 bytes in 124 msecs (HTTP/1.1 302) 7 headers in 476 bytes (1 switches on core 1)
+[pid: 3756|app: 0|req: 6/84] 127.0.0.1 () {44 vars in 817 bytes} [Sun Jun 28 11:49:06 2020] GET /index => generated 13276 bytes in 407 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 71/85] 127.0.0.1 () {42 vars in 781 bytes} [Sun Jun 28 11:49:08 2020] GET /user/ => generated 5861 bytes in 85 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 72/86] 127.0.0.1 () {42 vars in 781 bytes} [Sun Jun 28 11:49:09 2020] GET /user/ => generated 5861 bytes in 64 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 73/87] 127.0.0.1 () {42 vars in 781 bytes} [Sun Jun 28 11:49:10 2020] GET /user/ => generated 5861 bytes in 56 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 74/88] 127.0.0.1 () {42 vars in 795 bytes} [Sun Jun 28 11:49:11 2020] GET /user/order/1 => generated 5909 bytes in 108 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 75/89] 127.0.0.1 () {42 vars in 802 bytes} [Sun Jun 28 11:49:13 2020] GET /user/address => generated 3341 bytes in 53 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 76/90] 127.0.0.1 () {42 vars in 788 bytes} [Sun Jun 28 11:49:14 2020] GET /user/ => generated 5861 bytes in 181 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 77/91] 127.0.0.1 () {42 vars in 795 bytes} [Sun Jun 28 11:49:33 2020] GET /user/order/1 => generated 5909 bytes in 106 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 78/92] 127.0.0.1 () {42 vars in 802 bytes} [Sun Jun 28 11:50:30 2020] GET /user/address => generated 3341 bytes in 158 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 79/93] 127.0.0.1 () {42 vars in 802 bytes} [Sun Jun 28 11:51:21 2020] GET /user/order/1 => generated 5909 bytes in 107 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 80/94] 127.0.0.1 () {48 vars in 899 bytes} [Sun Jun 28 11:51:32 2020] POST /order/pay => generated 27 bytes in 342 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 1)
+设置缓存
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAGs4rAACpB-LsCdE740.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAbOC7AAC3B-z8J2c197.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAWAsaAAETwXb_pso292.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eACCeYAAD0akkXmFo971.jpg
+设置缓存
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAGs4rAACpB-LsCdE740.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAbOC7AAC3B-z8J2c197.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eAWAsaAAETwXb_pso292.jpg
+http://192.168.6.132:8888/group1/M00/00/01/wKgGhF7y27eACCeYAAD0akkXmFo971.jpg
+[pid: 3760|app: 0|req: 82/95] 127.0.0.1 () {40 vars in 743 bytes} [Sun Jun 28 11:51:38 2020] GET /index => generated 13276 bytes in 612 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 82/96] 127.0.0.1 () {40 vars in 743 bytes} [Sun Jun 28 11:51:38 2020] GET /index => generated 13276 bytes in 558 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
