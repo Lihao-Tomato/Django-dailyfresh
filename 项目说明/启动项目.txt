@@ -1,0 +1,15 @@
+启动tracker、storage、nginx服务：
+	sudo service fdfs_trackerd start
+	sudo service fdfs_storaged start
+	sudo /usr/local/nginx/sbin/nginx
+启动项目（切换到项目目录下）：
+	uwsgi --ini uwsgi.ini
+关闭项目：
+	uwsgi –-stop uwsgi.pid
+
+访问网站首页：
+	http://127.0.0.1/index
+
+访问后台管理：
+	http://127.0.0.1/admin
+	
